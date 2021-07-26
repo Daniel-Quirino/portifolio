@@ -1,0 +1,46 @@
+.presentation {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.presentation__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  font-size: 24px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0px auto;
+  padding: 0px auto;
+  font-size: 16px;
+  color: white;
+}
+
+.presentation__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 600px) {
+  .presentation__title {
+    font-size: 48px;
+  }
+
+  .presentation > h1 {
+    margin: 50px auto 10px auto;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+}

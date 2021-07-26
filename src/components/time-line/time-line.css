@@ -1,0 +1,32 @@
+.MuiTimelineContent-root {
+  min-width: 10px;
+}
+
+.dti {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.company-name {
+  font-size: 16px;
+  color: black;
+}
+
+.MuiTimelineOppositeContent-root {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 13px;
+}
+
+.company-time {
+  font-size: 12px;
+  color: #808080;
+}
+
+.company-role {
+  font-size: 16px;
+  color: #4b5b6c;
+}

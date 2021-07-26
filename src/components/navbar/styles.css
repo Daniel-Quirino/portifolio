@@ -1,0 +1,46 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  background-color: black;
+}
+
+.navbar__user {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.navbar__user-name:hover {
+  margin: auto 5px;
+  transition: all 0.2s cubic-bezier(0.565, 1.65, 0.765, 0.88);
+  cursor: pointer;
+}
+
+.navbar__user-name--left {
+  color: #25ced1;
+  font-weight: 500;
+  font-size: 22px;
+  margin: auto 2px;
+}
+
+.navbar__user-name--rigth {
+  color: #4b5b6c;
+  font-weight: 500;
+  font-size: 22px;
+  margin: auto 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 100px;
+  }
+}
